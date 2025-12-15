@@ -1,0 +1,5 @@
+# Redirect www to non-www
+https://www.ditch9to5.com/* https://ditch9to5.com/:splat 301
+
+# Handle SPA-style routing (if needed in future)
+/*    /index.html   200
